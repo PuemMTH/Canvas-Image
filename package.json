@@ -1,0 +1,19 @@
+{
+  "name": "testtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.38",
+    "ts-node": "^10.8.0"
+  },
+  "dependencies": {
+    "canvas": "^2.9.1"
+  }
+}
